@@ -2818,6 +2818,14 @@ article.special {
     text-align: center;
 }
 
+.special img {
+    margin: 10px;
+}
+
+.special img:hover {
+    transform: scale(1.2);
+}
+
 header p {
     position: relative;
     margin: 0 0 1.5em 0;
@@ -3570,7 +3578,7 @@ table.alt tbody tr td {
 .wrapper.style2 h4,
 .wrapper.style2 h5,
 .wrapper.style2 h6 {
-    color: #828282;
+    color: rgb(60, 47, 136);
 }
 
 .wrapper.style2 blockquote {
@@ -4308,10 +4316,10 @@ body.is-preload #header .image img {
 /* Footer */
 
 #footer {
-    background-color: #f7f7f7;
+    background-color: #E4E4E4;
     color: #999999;
     padding: 4.5em 0 2.5em 0;
-    color: #b0b0b0;
+    color: #693636;
     text-align: center;
 }
 
